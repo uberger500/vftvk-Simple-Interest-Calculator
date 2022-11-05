@@ -1,5 +1,14 @@
 body {background-color:black;}
 h1{color:grey;}
-div{color:white;}
+round{
+  background-color:white;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  border-top-left-radiusL 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
 
