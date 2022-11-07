@@ -12,7 +12,9 @@ h1{color:grey;font-family:verdana}
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-
-
+label {
+    width: 30px;
+    display: inline-block;
+}
 
 
