@@ -3,17 +3,15 @@ h1{color:grey;font-family:verdana}
 .maindiv{
   background-color:white;
   color: black;
-  width: 300px;
+  width: 400px;
+  height: 800px;
   padding: 20px;
+  justify-content: center;
+  border-radius: 25px;
 
-
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
 }
 label {
-    width: 30px;
+    width: 100px;
     display: inline-block;
 }
 
