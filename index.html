@@ -7,14 +7,18 @@
         <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
-        <label>Amount <input type="number"  id="principal"></label>  
-        <label>Interest Rate <input type="range"  id="rate" min="minval" max="maxval" value="default_val">
+        <label for="interest_amount">Amount</label>
+         <input type="number"  id="principal"> 
+        </br>
+        <label for="interest_rate">Interest Rate</label>
+         <input type="range"  id="rate" min="1" max="20" step="0.25" value="10.25">
         <span id="rate_val">
             10.25%
         </span>
-    </label>
+    </br>
 
-        <label>No. of Years<select id="years">
+        <label for="years">No of Years</label>
+        <select id="years">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -25,14 +29,12 @@
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-        </label>
+        
              <br/>
-        <label>Interest : <span id="result"></span></label><br>
-
+        <label for="interest">Interest :</label>
         <button onclick="compute()">Compute Interest</button>
-        <span> id="result">
+        <span id="result"></span><br>
 
-        </span>
             <footer>
                 <p>&#169; This Calculator Belongs to Urs Berger </p>
             </footer>
