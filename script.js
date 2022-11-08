@@ -1,6 +1,12 @@
 function compute()
 {
     var principal=document.getElementById("principal").value;
+    if (principal == 0) {
+    alert("Enter a positive number");
+    window.location.reload();
+  }
+
+
     var rate=document.getElementById("rate").value;
     var years=document.getElementById("years").value;
     var amount=principal*years*rate/100;
@@ -11,6 +17,7 @@ function compute()
     "If you deposit "+tagopen+principal+tagclose+",\<br\>at an interest rate of "
     +tagopen+rate+tagclose+"%\<br\>You will receive an amount of "
     +tagopen+amount+tagclose+",\<br\>in the year "+tagopen+year+tagclose+"\<br\>";
+        
 }
 
 function updateRate()
